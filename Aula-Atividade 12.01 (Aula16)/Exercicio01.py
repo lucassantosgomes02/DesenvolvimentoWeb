@@ -13,7 +13,7 @@ def calcular_patos_coelhos(total_cabecas, total_pes):
 
 RA = int(input("Digite o RA: "))
 
-total_cabecas = Y * 2 + 5
+total_cabecas = RA * 2 + 5
 total_pes = total_cabecas * 2
 
 patos_result, coelhos_result = calcular_patos_coelhos(total_cabecas, total_pes)
