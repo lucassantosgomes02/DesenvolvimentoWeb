@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário FATEC </title>
+</head>
+<body>
+    <h2> Roupas XIQUE XIQUE</h2>
+    <H3> Cadastro</H3>
+    <form>
+        <fieldset>
+            <legend> Dados pessoais </legend>
+            <label for="nome">Nome</label>
+            <Input type="text" 
+                    id="nome"
+                    name="NomeCliente"
+                    maxlength="30"
+                    minlength="10"
+                    size="50"
+                    required
+                    >
+            <label for="Senha">Senha</label>
+            <input type="Password" 
+                    id="Senha"
+                    name="Password"
+                    maxlength="12"
+                    placeholder="Senha com letras e números">
+        </fieldset>
+
+        <fieldset>
+            <legend> Dados de cobrança </legend>
+            <label for="Cidade">Cidade</label>
+            <input type="Text"
+                name="Cidade"
+                id="Cidade"
+                value="Sorocaba">
+            <label for="UF">Estado</label>
+            <select name="UF" id="UF">
+                <optgroup label="Região Norte">
+                    <option value="AM">AM</option>
+                    <option value="AC">AC</option>
+                </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                </optgroup>
+            </select>
+            <input value="Sim" type="checkbox" name="Tipo de envio" id="Envio">
+            <label for="Envio">Express ?</label>
+
+
+            <label for="UF">Estado Civíl:</label>
+                <input value="Solteiro" type="radio" name="Estado Civíl" id="Estado Civíl">
+                <Label>Solteiro</Label>
+                <input Value="Casado"type="radio" name="Estado Civíl" id="Estado Civíl">
+                <Label>Casado</Label>
+                <input value="Casado + Solteiro" type="radio" name="Estado Civíl" id="Estado Civíl">  
+                <label>Solteiro+Casado</label>
+
+            <Label for="Cor preferida">Cor preferida</Label>
+            <input type="color" name="color" id="color">
+
+            <label for="Grau de satisfação">Grau de satisfação:</label>
+            <input type="range" name="Nota" id="Nota"
+                    min="0"
+                    max="10"
+                    step="2">
+
+            <label for="Tel">Tel:</label>
+            <input type="Tel"
+                    id="Phone"
+                    name="Phone"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+                
+
+            </select>
+        </fieldset>
+        <button> Cadastrar</button>
+        <input type="submit" value="Cadastrar">
+    </form>
+
+
+</body>
+</html>

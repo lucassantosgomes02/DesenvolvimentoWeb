@@ -1,0 +1,16 @@
+h2{
+    color:rgb(9, 234, 136)
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section{
+    border: 1px solid greenyellow;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

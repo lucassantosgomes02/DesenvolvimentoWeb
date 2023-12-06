@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Cadastro</title>
+    <script src="script.js" defer>
+
+    </script>
+</head>
+<body>
+    <h2>CADASTRO</h2>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nomeCli" id="nome" maxLength="30" placeholder="Informe Nome">
+    <label for="Senha">Senha</label>
+    <input type="Password" 
+            id="Senha"
+            name="Password">
+    <label for="nome">CEP</label>
+    <input type="text" name="cep" id="cep">
+    <label for="nome">Cidade</label>
+    <input type="text" name="cidade" id="cidade">
+    <label for="nome">Idade</label>
+    <input type="value" name="idade" id="idade">
+    <label>Aceita os termos?</label>
+    <input type="radio" name="Sim" value = "0">
+    <label>Sim</label>
+    
+    <input type="radio" name="Sim" value="0">
+    <label>Não</label>
+    
+    <br>
+
+    <button onclick="calcularIdade()"> Calcular idade </button>
+
+</body>
+</html>
+
+
+<body>
+    <section>
+        <form style="margin:30px;">
+            <div class="row">
+                <div class="col">
+                    <input type="button" value="Verificar CEP" id="pesquisa" class="btn btn-primary">
+                    <i id= "pesquisaClima" class="ri-search-line btn btn-primary"></i>
+                </div>
+            </div>
+            <div class="row" style="margin:30px;">
+                <p id="resultado"></p>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

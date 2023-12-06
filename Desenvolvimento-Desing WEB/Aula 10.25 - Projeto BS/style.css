@@ -1,0 +1,11 @@
+img{
+    width: 50%;
+    background-color: black;
+    margin: auto;
+    display: block;
+}
+
+.carousel-inner{
+    background-color: rgb(150, 150, 206);
+
+}

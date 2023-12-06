@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <section>
+        <form>
+            <h2>Cálculo de percentual do salário</h2>
+            <label for="salario">Salário do funcionário: </label>
+            <input type="text" name="salario" id="salario" placeholder="Digite o salário">
+            <br>
+            <label for="porcentagemAumento">Porcentagem de aumento: </label>
+            <input type="text" name="porcentagemAumento" id="porcentagemAumento" placeholder="Digite a porcentagem de aumento salarial">
+            <br>
+            <input type="button" value="Calcular" class="botaoCal" onclick="calculaSalario()">
+            <br>
+            <p id="nSalario">O novo salário do funcionário é: R$</p>
+        </form>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
